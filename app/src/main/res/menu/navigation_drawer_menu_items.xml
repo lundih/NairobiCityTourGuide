@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/menu_item_group_title">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/navigationViewMenuItemRecreation"
+                    android:title="@string/menu_item_recreation"
+                    android:icon="@drawable/ic_recreation" />
+                <item
+                    android:id="@+id/navigationViewMenuItemHistory"
+                    android:title="@string/menu_item_history"
+                    android:icon="@drawable/ic_history" />
+            </group>
+        </menu>
+    </item>
+</menu>
